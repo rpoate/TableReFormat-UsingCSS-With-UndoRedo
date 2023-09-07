@@ -44,6 +44,8 @@ namespace WindowsFormsApp6
 
             this.htmlEditControl1.Document.ExecCommand("ms-endUndoUnit", false, "Table mod" + theTime);
 
+            this.htmlEditControl1.SetDirty(true);
+
         }
     }
 }
